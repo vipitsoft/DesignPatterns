@@ -1,0 +1,11 @@
+/Users/vipitsoft/Projects/DesignPatterns/Main/bin/Debug/netcoreapp2.2/Main.deps.json
+/Users/vipitsoft/Projects/DesignPatterns/Main/bin/Debug/netcoreapp2.2/Main.runtimeconfig.json
+/Users/vipitsoft/Projects/DesignPatterns/Main/bin/Debug/netcoreapp2.2/Main.runtimeconfig.dev.json
+/Users/vipitsoft/Projects/DesignPatterns/Main/bin/Debug/netcoreapp2.2/Main.dll
+/Users/vipitsoft/Projects/DesignPatterns/Main/bin/Debug/netcoreapp2.2/Main.pdb
+/Users/vipitsoft/Projects/DesignPatterns/Main/obj/Debug/netcoreapp2.2/Main.csprojAssemblyReference.cache
+/Users/vipitsoft/Projects/DesignPatterns/Main/obj/Debug/netcoreapp2.2/Main.csproj.CoreCompileInputs.cache
+/Users/vipitsoft/Projects/DesignPatterns/Main/obj/Debug/netcoreapp2.2/Main.AssemblyInfoInputs.cache
+/Users/vipitsoft/Projects/DesignPatterns/Main/obj/Debug/netcoreapp2.2/Main.AssemblyInfo.cs
+/Users/vipitsoft/Projects/DesignPatterns/Main/obj/Debug/netcoreapp2.2/Main.dll
+/Users/vipitsoft/Projects/DesignPatterns/Main/obj/Debug/netcoreapp2.2/Main.pdb
