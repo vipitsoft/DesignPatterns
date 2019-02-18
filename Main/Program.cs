@@ -2,6 +2,7 @@
 using Main.代理模式;
 using Main.原型模式;
 using Main.工厂模式;
+using Main.模版方法模式;
 using Main.策略模式;
 using Main.简单工厂模式;
 using Main.装饰器模式;
@@ -87,20 +88,36 @@ namespace Main
             //======================================================================
 
             #region 原型模式
-            Resume a = new Resume("小明");
-            a.SetPersonalInfo("男", "29");
-            a.SetWorkExperience("1998-2000", "xx公司");
+            //Resume a = new Resume("小明");
+            //a.SetPersonalInfo("男", "29");
+            //a.SetWorkExperience("1998-2000", "xx公司");
 
-            Resume b = (Resume)a.Clone();
-            b.SetWorkExperience("1998-2006", "YY企业");
+            //Resume b = (Resume)a.Clone();
+            //b.SetWorkExperience("1998-2006", "YY企业");
 
-            Resume c = (Resume)a.Clone();
-            c.SetPersonalInfo("男", "24");
-            c.SetWorkExperience("1998-2009", "ZZ企业");
+            //Resume c = (Resume)a.Clone();
+            //c.SetPersonalInfo("男", "24");
+            //c.SetWorkExperience("1998-2009", "ZZ企业");
 
-            a.Display();
-            b.Display();
-            c.Display();
+            //a.Display();
+            //b.Display();
+            //c.Display();
+
+            //Console.ReadKey();
+            #endregion
+            //======================================================================
+            #region 模版方法模式调用
+            Console.WriteLine("学生甲答题：");
+            TestPaper testPaperA = new TestPaperA();
+            testPaperA.TestQuestion1();
+            testPaperA.TestQuestion2();
+            testPaperA.TestQuestion3();
+
+            Console.WriteLine("学生乙答题：");
+            TestPaper testPaperB = new TestPaperB();
+            testPaperB.TestQuestion1();
+            testPaperB.TestQuestion2();
+            testPaperB.TestQuestion3();
 
             Console.ReadKey();
             #endregion

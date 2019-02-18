@@ -6,12 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="简单工厂模式\" />
-    <Folder Include="策略模式\" />
-    <Folder Include="装饰器模式\" />
-    <Folder Include="代理模式\" />
-    <Folder Include="工厂模式\" />
-    <Folder Include="原型模式\" />
+    <Folder Include="1.简单工厂模式\" />
+    <Folder Include="2.策略模式\" />
+    <Folder Include="3.装饰器模式\" />
+    <Folder Include="4.代理模式\" />
+    <Folder Include="5.工厂模式\" />
+    <Folder Include="6.原型模式\" />
+    <Folder Include="7.模版方法模式\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="策略模式\正常收费子类.cs" />
